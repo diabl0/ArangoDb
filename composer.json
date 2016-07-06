@@ -10,9 +10,8 @@
   "type": "symfony-bundle",
   "license": "MIT",
   "autoload": {
-    "psr-4": { "Mao\\ArangoDb": "src/" }
+    "psr-4": { "Mao\\ArangoDb\\": "" }
   },
-  "target-dir": "Mao/ArangoDb",
   "require": {
     "triagens/ArangoDb": "dev-master",
     "symfony/framework-bundle": "^3.0"
