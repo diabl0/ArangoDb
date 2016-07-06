@@ -1,0 +1,20 @@
+{
+  "name": "mao/arangodb",
+  "description": "ArangoDB",
+  "authors": [
+    {
+      "name": "Krzysztof Szatanik",
+      "email": "chris.szatanik@gmail.com"
+    }
+  ],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "Mao\\ArangoDb": "src/" }
+  },
+  "target-dir": "Mao/ArangoDb",
+  "require": {
+    "triagens/ArangoDb": "^3.0",
+    "symfony/framework-bundle": "^3.0"
+  }
+}
